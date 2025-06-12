@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Siêu Thị Bất Tử</title>
+  <link rel="stylesheet" href="sieuthi.css">
+</head>
+<body>
+
+<header>Siêu Thị Bất Tử</header>
+
+<nav>
+  <a href="file:///C:/Users/FPT%20SHOP/Downloads/asmvisual/trangchu.html">Trang chủ</a>
+  <a href="file:///C:/Users/FPT%20SHOP/Downloads/asmvisual/sieuthi.html">Giỏ hàng</a>
+  <a href="file:///C:/Users/FPT%20SHOP/Downloads/asmvisual/lienhe.html">Liên hệ</a>
+  <a href="file:///C:/Users/FPT%20SHOP/Downloads/asmvisual/gopy.html">Góp ý</a>
+    <a href="file:///C:/Users/FPT%20SHOP/Downloads/asmvisual/hoidap.html">Hỏi đáp</a>
+</nav>
+
+<div class="container">
+  <div class="left">
+    <h3>THÔNG TIN NHẬN HÀNG</h3>
+    <input type="text" placeholder="Họ tên">
+    <input type="text" placeholder="Địa chỉ">
+    <input type="text" placeholder="Điện thoại">
+    <input type="email" placeholder="Email">
+
+    <h3>GIỎ HÀNG</h3>
+    <table id="cart-table">
+      <tr>
+        <th>STT</th>
+        <th>Hình</th>
+        <th>Tên sản phẩm</th>
+        <th>Đơn giá</th>
+        <th>Số lượng</th>
+        <th>Thành tiền ($)</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td><img src="img/citizen-nj0150-56w-nam-thumb-638629649280996803-600x600.jpg" height="80px" alt="Đồng hồ"></td>
+        <td>Đồng hồ</td>
+        <td class="price">15000</td>
+        <td><input type="number" value="1" class="quantity" min="1"></td>
+        <td class="subtotal">10</td>
+      </tr>
+      <tr class="total">
+        <td colspan="5">Tổng đơn hàng</td>
+        <td id="total">15000</td>
+      </tr>
+    </table>
+
+    <button class="order-btn">ĐỒNG Ý ĐẶT HÀNG</button>
+  </div>
+
+  <div class="right">
+    <div class="box">
+      <h4>TÀI KHOẢN</h4>
+      <input type="text" placeholder="Tên đăng nhập">
+      <input type="password" placeholder="Mật khẩu">
+      <div><input type="checkbox"> Ghi nhớ tài khoản?</div>
+      <button class="order-btn" style="margin-top: 10px;">Đăng nhập</button>
+      <p><a href="#">Quên mật khẩu</a><br><a href="#">Đăng ký thành viên</a></p>
+    </div>
+
+    <div class="box">
+      <h4>DANH MỤC</h4>
+      <ul>
+        <li>Đồng hồ</li>
+        <li>Laptop</li>
+        <li>Điện thoại</li>
+        <li>Ba lô</li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <h4>TOP 10 ĐỒNG HỒ YÊU THÍCH NĂM 2025</h4>
+      <ul>
+        <li>Rolex Submariner 2025</li>
+        <li>Omega Speedmaster Moonwatch</li>
+        <li>Apple Watch Ultra 2</li>
+        <li>Casio G-Shock GWG-B1000</li>
+        <li>Tissot PRX Powermatic 80</li>
+        <li>Seiko Presage Sharp Edged Series</li>
+        <li>Longines HydroConquest GMT 2025</li>
+        <li>Samsung Galaxy Watch 7 Classic</li>
+        <li>Daniel Wellington Iconic Link</li>
+        <li>Garmin Fenix 8 Pro Solar</li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+<footer>
+    Copyright © 2025 - DUNGBATU
+</footer>
+
+<!-- Link đến file JavaScript -->
+<script src="sieuthi.js"></script>
+
+</body>
+</html>

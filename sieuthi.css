@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background: red;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav {
+  background: #000;
+  color: white;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.left {
+  flex: 3;
+  padding-right: 20px;
+}
+
+.right {
+  flex: 1;
+}
+
+h3 {
+  color: red;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 6px;
+  margin: 5px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #ddd;
+}
+
+.total {
+  font-weight: bold;
+  background: #666;
+  color: white;
+}
+
+.order-btn {
+  background: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: red;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
